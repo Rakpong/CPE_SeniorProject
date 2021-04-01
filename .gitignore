@@ -1,0 +1,29 @@
+
+/API(Backend)/venv/*
+/API(Backend)/__pycache__/*
+/API(Backend)/not_use/Test/*
+/API(Backend)/app/__pycache__/*
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/Web(Frontend)/node_modules
+/Web(Frontend)/.pnp
+/Web(Frontend)/.pnp.js
+
+# testing
+/Web(Frontend)/coverage
+
+# production
+/Web(Frontend)/build
+
+# misc
+/Web(Frontend)/.DS_Store
+/Web(Frontend)/.env.local
+/Web(Frontend)/.env.development.local
+/Web(Frontend)/.env.test.local
+/Web(Frontend)/.env.production.local
+
+/Web(Frontend)/npm-debug.log*
+/Web(Frontend)/yarn-debug.log*
+/Web(Frontend)/yarn-error.log*
