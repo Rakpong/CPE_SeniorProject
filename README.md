@@ -15,17 +15,18 @@ AutomaticFireDetectionSystem ระบบตรวจจับไฟไหม้
 ### Flask API
 ทำการ create venv แล้ว activate venv จากนั้นทำการติดตั้ง flask ตาม document นี้
 > - [flask install](https://flask.palletsprojects.com/en/1.1.x/installation) 
-จากนั้นทำการติดตั้ง library ที่จำเป็นใน venv ดังนี้
+> - จากนั้นทำการติดตั้ง library ที่จำเป็นใน venv ดังนี้
 ```python
 pip install tensorflow
 pip install numpy
 pip install matplotlib
 pip install opencv-python
-```
 npm install base-64
+```
+
 
 ### Web-application
 ทำการสร้าง mode module ตาม document ดังนี้
 > - [react setup](https://reactjs.org/docs/create-a-new-react-app.html) 
-จากนั้นทำการติดตั้ง library ที่จำเป็นดังนี้
+> - จากนั้นทำการติดตั้ง library ที่จำเป็นดังนี้
 > - npm install react-player # or yarn add react-player
